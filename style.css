@@ -119,7 +119,7 @@ transform: scale(0.9);
   }
 }
 
-/*mudança de time diferente*/
+/**/
 
 .form-hide{
   animation: down 1.2s forwards;
@@ -135,27 +135,7 @@ transform: scale(0.9);
   }
 }
 
-/*FORM NO-NO*/
 
-form.validate-error{
-  animation: nono 250ms linear fade paused;
-  animation-iteration-count: 2;
-}
-
-@keyframes nono {
-  0% {
-    transform: translateX(0);
-  }
-  35% {
-    transform: translate(-15%);
-  }
-  75% {
-    transform: translateX(15%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 
 
 
