@@ -88,19 +88,18 @@ form .input-block:nth-child(2) {
 }
 
 form .btn-login {
-  animation-name: move;
-  animation-duration: 400ms;
-  animation-delay: 250ms;
-  animation-fill-mode: backwards;
+    animation-name: move;
+    animation-duration: 400ms;
+    animation-delay: 250ms;
+    animation-fill-mode: backwards;
 }
-
 
   @keyframes move {
     from{
   opacity: 0;
   transform: translateX(-35%);
-    }
 
+    }
     to {
       opacity: 1;
       transform: translateX(0%);
@@ -115,24 +114,11 @@ transform: scale(0.9);
   }
   to {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1%);
   }
 }
 
-/**/
 
-.form-hide{
-  animation: down 500ms forwards;
-}
-
-@keyframes down {
-  from{
-    transform: translateY(0);
-  }
-  to{
-    transform: translateY(100vh);
-  }
-}
 
 
 
